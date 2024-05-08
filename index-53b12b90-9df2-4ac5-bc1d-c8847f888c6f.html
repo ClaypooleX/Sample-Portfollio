@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theodore Claypoole</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Theodore Claypoole</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href='#about'>About</a></li>
+                <li><a href='#experience'>Experience</a></li>
+                <li><a href='#representative-matters'>Representative Matters</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Theodore Claypoole</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            
+            </div>
+            <div class="menu-links">
+                <li><a href='#about' onclick="toggleMenu()">About</a></li>
+                <li><a href='#Expierence' onclick="toggleMenu()">Expierence</a></li>
+                <li><a href='#representative-matters' onclick="toggleMenu()">Representative Matters</a></li>
+                <li><a href='#contact' onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assests/profilePic1.jpeg" alt="Theodore Claypoole Profile Picure">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Theodore Claypoole</h1>
+            <p class="section__text__p2">Business Attorney</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assests/resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href ='#contact'">Contact Info</button>
+            </div>
+          
+            <div id="socials-container">
+                <img src="./assests/linkedin.png" alt="my linkdin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/theodore-claypoole-9493018?trk=people-guest_people_search-card'">
+                <img src="./assests/image002.jpg" alt="my business" class="icon utbf-pic" onclick="location.href='https://www.utbf.com'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assests/experience.png" alt="expierence icon" class="icon">
+                        <h3>Expierence</h3>
+                        <p>Practicing Law for over 25+ years.</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assests/education.png" alt="expierence icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Villanova University School of Law, J.D. (1998)<br>Villanova University School of Law, LL.M., Taxation (2003)<br>Shippensburg University (1995)<br>B.A., Sociology<br>
+                            Minor, Philosophy<br>
+                            Member, Shippensburg Rugby Club</p>
+        
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I joined Unruh, Turner, Burke & Frees in 2002 after serving high net-worth clients in a specialized accounting firm and then at a regional general practice law firm. I was Main Line Today magazines “Top Lawyer” over multiple years, I have also been recognized as a leading attorney by Suburban Life magazine. Notably, I maintain a preeminent “AV” rating from Martindale-Hubbell, recognizing my superior legal ability as judged by my peers. A Pennsylvania Super Lawyers “Rising Star” from 2010 through 2013, I was also deemed a “Lawyer on the Fast Track” by the Legal Intelligencer in 2010.
+
+                        Dedicated to the community in which I live and work, I presently serve as a board member of the Housing Authority of the County of Chester.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Business Attorney</h2>
+                    <div class="article-container">
+                        <article>
+                        <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Business formations</h3>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Contracts</h3>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Mergers & Acquisitions</h3>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Commercial Real estate</h3>
+                        </div>
+                        </article>
+                        <article>
+                        <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                        <div>
+                            <h3>Liquor Law</h3>
+                        </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#representative-matters'">
+    </section>
+    <section id="representative-matters">
+        <p class="section__text__p1">Browse My</p>
+        <h1 class="title">Representative Matters</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <h2 class="experience-sub-title representative-title">Represented a shareholder in a $70,000,000.00 sale of his stock and equity interest in over fifty companies</h2>
+            
+                </div>  
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <h2 class="experience-sub-title representative-title">Represented a national automotive dealership in a $31,000,000.00 asset and real estate acquisition of multiple dealerships.</h2>
+                </div>  
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <h2 class="experience-sub-title representative-title">Represented a regional residential real estate developer in a $61,000,000.00 acquisition and development of a 225 lot subdivision</h2>
+                </div>
+               
+            </div>
+        </div>
+            <img src="./assests/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#representative-matters'">
+            
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assests/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:tclaypoole@utbf.com">tclaypoole@utbf.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assests/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/theodore-claypoole-9493018?trk=people-guest_people_search-card">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#experience'>Experience</a></li>
+                    <li><a href='#representative-matters'>Representative Matters</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Theodore Claypoole. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>    
+</body>
+</html>
